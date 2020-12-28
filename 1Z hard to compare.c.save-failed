@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{int A,B,C,D;
+double r,result;
+scanf("%d %d %d %d",&A,&B,&C,&D);
+result=B*log(A);
+r=D*log(C);
+if(result>r)
+printf("YES");
+else
+    printf("NO");
+return 0;}
